@@ -4,7 +4,6 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
-import java.util.Set;
 import java.util.stream.Collectors;
 
 
@@ -129,9 +128,6 @@ public class _Stream {
 			.map(Person::getName);
 			
 		oldestMale.ifPresent(oldestmale -> System.out.println("Oldest Male's name is: "+ oldestmale));
-		
-		
-			
 				
 	}
 	static class Person{
